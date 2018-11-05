@@ -1,0 +1,9 @@
+-- auto Generated on 2018-11-01 23:14:54 
+-- DROP TABLE IF EXISTS `persion`; 
+CREATE TABLE persion(
+    `id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'id',
+    `name` VARCHAR(50) NOT NULL DEFAULT '' COMMENT 'name',
+    `age` INTEGER(12) NOT NULL DEFAULT -1 COMMENT 'age',
+    `birthday` DATETIME NOT NULL DEFAULT '1000-01-01 00:00:00' COMMENT 'birthday',
+    PRIMARY KEY (`id`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT 'persion';
